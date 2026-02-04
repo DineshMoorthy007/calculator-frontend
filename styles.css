@@ -62,3 +62,27 @@ button:hover {
     font-size: 20px;
     font-weight: bold;
 }
+
+.footer-button-container {
+    margin-top: 20px;
+}
+
+.footer-button-container a {
+    text-decoration: none;
+}
+
+.coverage-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #28a745;
+    color: white;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.coverage-btn:hover {
+    background: #218838;
+}
