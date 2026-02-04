@@ -7,7 +7,7 @@ function calculate(op) {
         return;
     }
 
-    const backendUrl = "https://rmi-calculator-backend-latest.onrender.com"; // ← Change this to your Render backend URL
+    const backendUrl = "https://rmi-calculator-backend-latest.onrender.com";
 
     fetch(`${backendUrl}/api/calculator/${op}?a=${a}&b=${b}`)
         .then(response => {
